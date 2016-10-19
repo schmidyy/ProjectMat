@@ -636,7 +636,8 @@ section.about {
     font-weight: 100;
     line-height: 0.5; }
   section.about p.par {
-    width: auto; }
+    width: auto;
+    text-align: center; }
   section.about p.info,
   section.about p.home-lead {
     position: relative;
@@ -678,7 +679,7 @@ section.education {
   section.education img {
     position: relative;
     top: -40px;
-    right: 60px;
+    right: 40px;
     -webkit-transform: scale(0.75);
             transform: scale(0.75);
       transform-width: 100px; }
@@ -686,20 +687,19 @@ section.education {
     color: #333333; }
   section.education h3 {
     position: relative;
-    left: 45px;
-    text-shadow: 2px 1px grey; }
+    left: 65px; }
   section.education h4 {
     position: relative;
-    left: 45px;
+    left: 65px;
     top: -15px; }
   section.education h4.bottom {
     position: relative;
-    left: 45px;
+    left: 65px;
     top: -35px; }
   section.education h5 {
     position: relative;
     top: -25px;
-    left: 45px;
+    left: 65px;
     font-size: 18px; }
   @media (max-width: 750px) {
     section.education {
@@ -712,7 +712,6 @@ section.education {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        position: relative;
         left: auto;
         top: auto; } }
 
@@ -770,7 +769,7 @@ section.education {
     max-height: none; }
   .home-sections .order-first {
     width: 30%;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: -90px; }
   .col-1 {
     max-width: 100%; }
