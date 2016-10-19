@@ -673,6 +673,49 @@ section.about {
         left: auto;
         right: auto; } }
 
+section.education {
+  background: #f2efe3; }
+  section.education img {
+    position: relative;
+    top: -40px;
+    right: 60px;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+      transform-width: 100px; }
+  section.education h3, section.education h4, section.education h5, section.education h4.bottom {
+    color: #333333; }
+  section.education h3 {
+    position: relative;
+    left: 45px;
+    text-shadow: 2px 1px grey; }
+  section.education h4 {
+    position: relative;
+    left: 45px;
+    top: -15px; }
+  section.education h4.bottom {
+    position: relative;
+    left: 45px;
+    top: -35px; }
+  section.education h5 {
+    position: relative;
+    top: -25px;
+    left: 45px;
+    font-size: 18px; }
+  @media (max-width: 750px) {
+    section.education {
+      text-align: center; }
+      section.education h3, section.education h4, section.education h5, section.education h4.bottom {
+        line-height: 1;
+        position: relative;
+        left: 0px; }
+      section.education img {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: auto;
+        top: auto; } }
+
 .home-wrap {
   display: -ms-flexbox;
   display: flex;
@@ -693,7 +736,10 @@ section.about {
         flex-direction: rows; }
   .home-sections .flex--center {
     -ms-flex-pack: center;
-        justify-content: center; }
+        justify-content: center;
+    max-width: 750px;
+    max-height: 300px;
+    margin: auto; }
   .home-sections .flex--space-around {
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -713,13 +759,19 @@ section.about {
   margin: 0 10px; }
 
 .col-50 {
-  width: 50%; }
+  width: 60%; }
 
 @media (max-width: 750px) {
   .home-sections .flex {
     display: block; }
   .home-sections .flex--space-around {
     max-height: none; }
+  .home-sections .flex--center {
+    max-height: none; }
+  .home-sections .order-first {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -90px; }
   .col-1 {
     max-width: 100%; }
   .col-50 {
