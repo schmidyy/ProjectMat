@@ -1,0 +1,61 @@
+section.about
+  background: #f5f5f5
+  height: auto
+  max-height: auto
+  padding: 0 0
+  margin: 0 auto
+
+
+  p.home-lead
+    color: #71c5ac
+    font:
+      size: 20px
+      weight: 100
+    line-height: 0.5
+
+
+  p.par
+    width: auto
+    //min-width: 100px
+
+  p.info,
+  p.home-lead
+    position: relative
+    right: 15px
+    top: 35px
+    line-height: auto
+
+  h4
+    color: #71c5ac
+    //transform: scale(10)
+    transform: rotate(-90deg)
+    font:
+      size: 100px
+      weight: 0
+
+
+  img
+    position: relative
+    top: -10px
+    right: 75px
+    transform: scale(0.75)
+     width: 100px
+
+  @media (max-width: 750px)
+    text-align: center
+
+    h4
+      margin: 40px
+      //padding: 40px
+      line-height: 0.1
+      transform: rotate(3600deg)
+
+    p.info,
+    p.home-lead
+      position: relative
+      left: 0px
+
+    img
+      position: relative
+      left: auto
+      right: auto

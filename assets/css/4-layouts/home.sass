@@ -2,17 +2,17 @@
   display: flex
   min-height: 100vh
 
-  @media (max-width: 414px)
+  @media (max-width: 500px)
     display: block
 
 .home-sections
   flex: 1
 
   section
-    padding: 50px 0
+    padding: 10px 0
 
 
-
+  // FLEX ZONES
   .flex
     display: flex
     flex-direction: rows
@@ -23,25 +23,34 @@
 
   .flex--space-around
     justify-content: space-around
+    max-width: 750px
+    margin: auto
+    max-height: 300px
 
   .order-first
     order: -1
 
 
-
 .col-1
-  max-width: 300px
+  max-width: 150px
   margin: 0 10px
-  //background: pink
 
 .col-2
   max-width: 620px
   margin: 0 10px
-  //background: honeydew
 
-@media (max-width: 640px)
+.col-50
+  width: 50%
+
+@media (max-width: 750px)
   .home-sections .flex
     display: block
 
+  .home-sections .flex--space-around
+    max-height: none
+
   .col-1
     max-width: 100%
+
+  .col-50
+    width: auto
