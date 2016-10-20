@@ -1,9 +1,9 @@
 mixin nav-content()
   ul
-    li: a(href="about") About
-    li: a(href="education") Education
-    li: a(href="skills") Skills
-    li: a(href="contact") Contact
+    li: a(href="#about") About
+    li: a(href="#education") Education
+    li: a(href="#skills") Skills UC
+    li: a(href="#contact") Contact
 
 .mobile-nav
   +nav-content()
@@ -18,3 +18,7 @@ header
     a(href="mailto:matschmidy@gmail.com").email-link +email me
 
     .mobile-nav-toggle: span
+
+html
+  head
+    link(rel='shortcut icon', href='assets/img/favicon.ico', type='image/x-icon') 

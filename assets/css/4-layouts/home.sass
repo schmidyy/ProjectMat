@@ -46,6 +46,24 @@
 .col-50
   width: 60%
 
+
+.box
+  width: 40%
+  max-height: 90px
+  position: absolute
+  left: 50%
+  right: 50%
+  +transform(translate(-50%, -50%))
+  margin-left: 75px
+  margin-top: -50px
+  border-style: solid
+  border-width: thin
+  border-top: thin dotted white
+  border-bottom: thin dotted white
+  border-left: hidden
+  border-right: hidden
+  //border-bottom: pink
+
 @media (max-width: 750px)
   .home-sections .flex
     display: block
@@ -57,12 +75,25 @@
     max-height: none
 
   .home-sections .order-first
-    width: 30%
-    margin-left: 30%
+    //width: 30%
+    display: flex
+    align-items: center
+    margin-left: 85px
     margin-top: -90px
 
+  .testalign
+    display: flex
+    align-items: center
   .col-1
     max-width: 100%
 
+  .col-2
+    max-width: 70%
+    height: 500px
+
   .col-50
     width: auto
+
+html, body
+  max-width: 100%
+  overflow-x: hidden
