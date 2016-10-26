@@ -1,6 +1,6 @@
 .home-wrap
   display: flex
-  min-height: 100vh
+  max-height: auto
 
   @media (max-width: 500px)
     display: block
@@ -47,22 +47,6 @@
   width: 60%
 
 
-.box
-  width: 40%
-  max-height: 90px
-  position: absolute
-  left: 50%
-  right: 50%
-  +transform(translate(-50%, -50%))
-  margin-left: 75px
-  margin-top: -50px
-  border-style: solid
-  border-width: thin
-  border-top: thin dotted white
-  border-bottom: thin dotted white
-  border-left: hidden
-  border-right: hidden
-  //border-bottom: pink
 
 @media (max-width: 750px)
   .home-sections .flex
