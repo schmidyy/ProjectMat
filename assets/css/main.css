@@ -474,13 +474,13 @@ a:hover, a:focus {
   color: #b3b3b3; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: #fff498; }
 
 ::selection {
-  background: #FFF498; }
+  background: #fff498; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: #fff498; }
 
 img::-moz-selection {
   background: transparent; }
@@ -492,7 +492,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: #fff498; }
 
 body {
   background: #F9F9F9;
@@ -526,7 +526,8 @@ body {
 .home-wrap header {
   width: 135px;
   background: white;
-  padding: 30px 0; }
+  padding: 30px 0;
+  border: 1px solid red; }
   .home-wrap header .header-position {
     position: fixed;
     top: 0px;
@@ -620,7 +621,8 @@ body {
 @media (max-width: 500px) {
   .home-wrap header {
     width: auto;
-    padding: 10px 0; }
+    padding: 10px 0;
+    height: auto; }
     .home-wrap header .header-position {
       width: auto;
       position: relative;
