@@ -637,8 +637,7 @@ body {
     .home-wrap header .logo {
       height: 45px; }
     .home-wrap header .mobile-nav-toggle {
-      display: -ms-flexbox;
-      display: flex; }
+      display: none; }
   .home-wrap .mobile-nav.is-open {
     display: block;
     -webkit-transform: translateY(0%);
