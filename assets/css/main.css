@@ -715,6 +715,8 @@ section.about {
     font-weight: 100;
     line-height: 0.5; }
   section.about p.par {
+    position: relative;
+    top: 35px;
     width: auto;
     text-align: center; }
   section.about p.info,
@@ -745,6 +747,8 @@ section.about {
         line-height: 0.1;
         -webkit-transform: rotate(360deg);
                 transform: rotate(360deg); }
+      section.about p.par {
+        top: 0px; }
       section.about p.info,
       section.about p.home-lead {
         position: relative;
